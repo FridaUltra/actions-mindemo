@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Button, StyleSheet } from 'react-native';
+import { Button } from 'react-native';
 import DetailsScreen from './screens/DetailsScreen';
 import HomeScreen from './screens/HomeScreens';
 import SettingsScreen from './screens/SettingsScreen';
@@ -33,12 +33,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
